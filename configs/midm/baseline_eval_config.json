@@ -1,0 +1,13 @@
+{
+  "model_name_or_path": "models/midm",
+  "model_family": "midm2",
+  "prompt_mode": "chat",
+  "dataset_path": "data/final/test.jsonl",
+  "output_dir": "outputs/baseline_eval_midm20_mini_instruct",
+  "max_samples": null,
+  "torch_dtype": "bfloat16",
+  "device_map": "auto",
+  "batch_size": 1,
+  "max_length": 2048,
+  "resume": true
+}

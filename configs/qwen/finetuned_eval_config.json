@@ -1,0 +1,15 @@
+{
+  "model_name_or_path": "models/qwen",
+  "model_family": "qwen35",
+  "prompt_mode": "chat",
+  "adapter_path": "outputs/checkpoints_qwen35_2b_base/adapter-final",
+  "dataset_path": "data/final/test.jsonl",
+  "output_dir": "outputs/finetuned_eval_qwen35_2b_base",
+  "max_samples": null,
+  "torch_dtype": "bfloat16",
+  "device_map": "auto",
+  "batch_size": 1,
+  "max_length": 2048,
+  "resume": true,
+  "enable_thinking": false
+}

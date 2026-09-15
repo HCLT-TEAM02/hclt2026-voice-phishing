@@ -1,0 +1,14 @@
+{
+  "model_name_or_path": "models/ministral",
+  "model_family": "ministral3",
+  "prompt_mode": "plain",
+  "adapter_path": "outputs/checkpoints_ministral3b_base/adapter-final",
+  "dataset_path": "data/final/test.jsonl",
+  "output_dir": "outputs/finetuned_eval_ministral3b_base",
+  "max_samples": null,
+  "torch_dtype": "bfloat16",
+  "device_map": "auto",
+  "batch_size": 1,
+  "max_length": 2048,
+  "resume": true
+}

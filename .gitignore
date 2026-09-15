@@ -1,0 +1,28 @@
+# Call data is never redistributed
+data/
+!data/quality/
+!data/quality/*
+*.jsonl
+!checklist/*.jsonl
+
+# Models and run artifacts
+models/
+outputs/
+checkpoints/
+*.safetensors
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
