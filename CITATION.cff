@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the paper below."
+title: "Real-Time Voice Phishing Detection through LLM-Based Dialogue Augmentation and Context-Aware Utterance-Level Labeling"
+authors:
+  - family-names: "Jeong"
+    given-names: "Suheum"
+  - family-names: "Lee"
+    given-names: "Damin"
+  - family-names: "Lim"
+    given-names: "Jiye"
+  - family-names: "Kim"
+    given-names: "Harksoo"
+preferred-citation:
+  type: conference-paper
+  title: "LLM 기반 대화 증강과 문맥 기반 발화 단위 라벨링을 통한 실시간 보이스피싱 탐지"
+  authors:
+    - family-names: "Jeong"
+      given-names: "Suheum"
+    - family-names: "Lee"
+      given-names: "Damin"
+    - family-names: "Lim"
+      given-names: "Jiye"
+    - family-names: "Kim"
+      given-names: "Harksoo"
+  collection-title: "Proceedings of the 38th Annual Conference on Human and Cognitive Language Technology (HCLT)"
+  year: 2026
+license: MIT
